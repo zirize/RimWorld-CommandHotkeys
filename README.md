@@ -4,7 +4,7 @@
 
 A RimWorld 1.7 (.NET 10) mod that binds keys to command buttons (gizmos), Architect items, Architect category tabs (working even while the menu is closed), and the map-screen toggle icons — with modifier chord support (`LCtrl+F1`, `LShift+...`, `LAlt+...`, etc.).
 
-An independent spiritual successor to [Hotkeys 1.6](https://steamcommunity.com/sharedfiles/filedetails/?id=3536306259) and [Architect Hotkeys Anywhere](https://github.com/zirize/RimWorld-ArchitectHotkeysAnywhere), written from scratch with no code from the original Hotkeys mod.
+An independent spiritual successor to [Hotkeys 1.6](https://steamcommunity.com/sharedfiles/filedetails/?id=3536306259) and [Architect Hotkeys Anywhere](https://steamcommunity.com/sharedfiles/filedetails/?id=3824191022), written from scratch with no code from the original Hotkeys mod.
 
 ## Features
 
@@ -22,6 +22,7 @@ An independent spiritual successor to [Hotkeys 1.6](https://steamcommunity.com/s
 
 - [Harmony](https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077) (`brrainz.harmony`) — used only to patch `Dialog_KeyBindings.DrawKeyEntry` so modifier chords display and bind in *Options → Keyboard*.
 - RimWorld 1.7 (.NET 10).
+- **Do not use together with Hotkeys or Architect Hotkeys Anywhere** — disable them before enabling this mod to avoid duplicate key handling (you can still import your old Hotkeys bindings from mod settings).
 
 ## Install / Build
 
