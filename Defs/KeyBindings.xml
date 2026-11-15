@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- No checkForConflicts and no self conflicts: this mod's keys carry modifiers the game does not
+       know about (Chords.cs), so the game's conflict check would wrongly clear them. Chords.Set
+       resolves conflicts among this mod's own bindings. -->
+
+  <KeyBindingCategoryDef>
+    <defName>CommandHotkeys_General</defName>
+    <label>command hotkeys</label>
+    <selfConflicting>false</selfConflicting>
+    <description>Assigning keys to command buttons and Architect items.</description>
+    <isGameUniversal>true</isGameUniversal>
+  </KeyBindingCategoryDef>
+
+  <!-- Keys bound to command buttons; generated at startup from the mod settings. -->
+  <KeyBindingCategoryDef>
+    <defName>CommandHotkeys_Gizmos</defName>
+    <label>command hotkeys: command buttons</label>
+    <selfConflicting>false</selfConflicting>
+    <description>Keys assigned to command buttons. They work while the button is shown.</description>
+  </KeyBindingCategoryDef>
+
+  <!-- Architect category tabs and Architect items; generated at startup. They work anywhere on the map. -->
+  <KeyBindingCategoryDef>
+    <defName>CommandHotkeys_Architect</defName>
+    <label>command hotkeys: Architect</label>
+    <selfConflicting>false</selfConflicting>
+    <description>Open an Architect category, or select an Architect item, from anywhere on the map.</description>
+    <isGameUniversal>true</isGameUniversal>
+  </KeyBindingCategoryDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Assign</defName>
+    <label>assign hotkey to hovered button or selected Architect item</label>
+    <category>CommandHotkeys_General</category>
+    <defaultKeyCodeA>Backslash</defaultKeyCodeA>
+  </KeyBindingDef>
+
+  <!-- The toggle icons at the bottom right of the map screen (merged from Overlay Hotkeys). -->
+  <KeyBindingCategoryDef>
+    <defName>CommandHotkeys_Toggles</defName>
+    <label>command hotkeys: map toggles</label>
+    <selfConflicting>false</selfConflicting>
+    <description>Toggles for the icons at the bottom right of the map screen.</description>
+    <isGameUniversal>true</isGameUniversal>
+  </KeyBindingCategoryDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_Zones</defName>
+    <label>toggle zones display</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_RoofOverlay</defName>
+    <label>toggle roof overlay</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_FertilityOverlay</defName>
+    <label>toggle fertility overlay</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_TerrainAffordanceOverlay</defName>
+    <label>toggle terrain affordance overlay</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_TemperatureOverlay</defName>
+    <label>toggle temperature overlay</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_PollutionOverlay</defName>
+    <label>toggle pollution overlay</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_VacuumOverlay</defName>
+    <label>toggle vacuum overlay</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_ColonistBar</defName>
+    <label>toggle colonist bar</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_LearningHelper</defName>
+    <label>toggle learning helper</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_AutoHomeArea</defName>
+    <label>toggle auto home area</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_AutoRebuild</defName>
+    <label>toggle auto rebuild</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+  <KeyBindingDef>
+    <defName>CommandHotkeys_Toggle_ResourceReadout</defName>
+    <label>toggle categorized resource readout</label>
+    <category>CommandHotkeys_Toggles</category>
+  </KeyBindingDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CommandHotkeys_Assign.label>마우스를 올린 버튼이나 선택한 건축 항목에 단축키 지정</CommandHotkeys_Assign.label>
+  <CommandHotkeys_Toggle_Zones.label>구역 표시 켜기/끄기</CommandHotkeys_Toggle_Zones.label>
+  <CommandHotkeys_Toggle_RoofOverlay.label>지붕 오버레이 켜기/끄기</CommandHotkeys_Toggle_RoofOverlay.label>
+  <CommandHotkeys_Toggle_FertilityOverlay.label>비옥도 오버레이 켜기/끄기</CommandHotkeys_Toggle_FertilityOverlay.label>
+  <CommandHotkeys_Toggle_TerrainAffordanceOverlay.label>지형 지지력 오버레이 켜기/끄기</CommandHotkeys_Toggle_TerrainAffordanceOverlay.label>
+  <CommandHotkeys_Toggle_TemperatureOverlay.label>온도 오버레이 켜기/끄기</CommandHotkeys_Toggle_TemperatureOverlay.label>
+  <CommandHotkeys_Toggle_PollutionOverlay.label>오염 오버레이 켜기/끄기</CommandHotkeys_Toggle_PollutionOverlay.label>
+  <CommandHotkeys_Toggle_VacuumOverlay.label>진공 오버레이 켜기/끄기</CommandHotkeys_Toggle_VacuumOverlay.label>
+  <CommandHotkeys_Toggle_ColonistBar.label>정착민 바 켜기/끄기</CommandHotkeys_Toggle_ColonistBar.label>
+  <CommandHotkeys_Toggle_LearningHelper.label>학습 도우미 켜기/끄기</CommandHotkeys_Toggle_LearningHelper.label>
+  <CommandHotkeys_Toggle_AutoHomeArea.label>자동 거주 구역 켜기/끄기</CommandHotkeys_Toggle_AutoHomeArea.label>
+  <CommandHotkeys_Toggle_AutoRebuild.label>자동 재건축 켜기/끄기</CommandHotkeys_Toggle_AutoRebuild.label>
+  <CommandHotkeys_Toggle_ResourceReadout.label>자원 목록 분류 표시 켜기/끄기</CommandHotkeys_Toggle_ResourceReadout.label>
+</LanguageData>

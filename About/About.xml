@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Command Hotkeys</name>
+  <author>zirize</author>
+  <packageId>zirize.CommandHotkeys</packageId>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Bind a key to any command button (gizmo) or Architect item, and open each Architect category with its own key, even while the Architect menu is closed.
+
+- Hover over a command button, or select an Architect item, and press the "assign hotkey" key (default: \). Pick "Set key" and press the key you want.
+- Command keys work while that button is shown for the current selection; the key letter appears on the button.
+- Architect item keys select the item from anywhere on the map.
+- Architect category keys: Options > Keyboard > "Command hotkeys: Architect".
+- Map toggle keys for the icons at the bottom right (zones, roof / fertility / terrain / temperature / pollution / vacuum overlays, colonist bar, learning helper, auto home area, auto rebuild, categorized resource readout): Options > Keyboard > "Command hotkeys: map toggles".
+- Keys may be chords: hold Ctrl/Shift/Alt (left and right told apart) while pressing the key in the assign dialog. Options > Keyboard shows them and sets them the same way.
+- Requires Harmony (only the keyboard settings screen is patched, to show and set chords). Built for RimWorld 1.7 (.NET 10).
+
+An independent mod; it contains no code from the Hotkeys mod.</description>
+</ModMetaData>

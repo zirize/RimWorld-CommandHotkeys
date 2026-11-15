@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CmdHk.SettingsHelp>Hover over a command button, or select an Architect item, and press the assign key ({0}). Keys are changed or cleared in the keyboard settings; this list only removes assignments.</CmdHk.SettingsHelp>
+  <CmdHk.OpenKeyboard>Keyboard settings</CmdHk.OpenKeyboard>
+  <CmdHk.NoEntries>No hotkeys assigned yet.</CmdHk.NoEntries>
+  <CmdHk.Kind_Gizmo>command button</CmdHk.Kind_Gizmo>
+  <CmdHk.Kind_Designator>Architect item</CmdHk.Kind_Designator>
+  <CmdHk.Remove>Remove</CmdHk.Remove>
+  <CmdHk.OpenTab>open Architect: {0}</CmdHk.OpenTab>
+  <CmdHk.GizmoKey>button: {0}</CmdHk.GizmoKey>
+  <CmdHk.DesignatorKey>Architect: {0}</CmdHk.DesignatorKey>
+  <CmdHk.NothingToAssign>Hover over a command button, or select an Architect item, first.</CmdHk.NothingToAssign>
+  <CmdHk.SetKey>Set key for "{0}"</CmdHk.SetKey>
+  <CmdHk.ChangeKey>Change key for "{0}" (now {1})</CmdHk.ChangeKey>
+  <CmdHk.RemoveKey>Remove hotkey of "{0}"</CmdHk.RemoveKey>
+  <CmdHk.Import>Import from Hotkeys</CmdHk.Import>
+  <CmdHk.ImportDone>Imported {0} Architect category keys and {1} Architect item keys from the Hotkeys mod.</CmdHk.ImportDone>
+  <CmdHk.ImportUnmatched>Not found among Architect items: {0}.</CmdHk.ImportUnmatched>
+  <CmdHk.PressKey>Press a key for {0}, with Ctrl/Shift/Alt held if wanted.\nNow: {1}\n\nEsc: cancel</CmdHk.PressKey>
+  <CmdHk.ChordTip>Click: press the key, holding Ctrl/Shift/Alt for a chord. Right-click: reset or clear.</CmdHk.ChordTip>
+  <CmdHk.ToggleState>{0}: {1}</CmdHk.ToggleState>
+  <CmdHk.On>on</CmdHk.On>
+  <CmdHk.Off>off</CmdHk.Off>
+  <CmdHk.Toggle_Zones>Zones display</CmdHk.Toggle_Zones>
+  <CmdHk.Toggle_RoofOverlay>Roof overlay</CmdHk.Toggle_RoofOverlay>
+  <CmdHk.Toggle_FertilityOverlay>Fertility overlay</CmdHk.Toggle_FertilityOverlay>
+  <CmdHk.Toggle_TerrainAffordanceOverlay>Terrain affordance overlay</CmdHk.Toggle_TerrainAffordanceOverlay>
+  <CmdHk.Toggle_TemperatureOverlay>Temperature overlay</CmdHk.Toggle_TemperatureOverlay>
+  <CmdHk.Toggle_PollutionOverlay>Pollution overlay</CmdHk.Toggle_PollutionOverlay>
+  <CmdHk.Toggle_VacuumOverlay>Vacuum overlay</CmdHk.Toggle_VacuumOverlay>
+  <CmdHk.Toggle_ColonistBar>Colonist bar</CmdHk.Toggle_ColonistBar>
+  <CmdHk.Toggle_LearningHelper>Learning helper</CmdHk.Toggle_LearningHelper>
+  <CmdHk.Toggle_AutoHomeArea>Auto home area</CmdHk.Toggle_AutoHomeArea>
+  <CmdHk.Toggle_AutoRebuild>Auto rebuild</CmdHk.Toggle_AutoRebuild>
+  <CmdHk.Toggle_ResourceReadout>Categorized resource readout</CmdHk.Toggle_ResourceReadout>
+</LanguageData>

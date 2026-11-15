@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>CommandHotkeys</AssemblyName>
+    <RootNamespace>CommandHotkeys</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <OutputPath>../Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <!-- Override with: dotnet build -p:RimWorldDir=/path/to/RimWorld -->
+    <RimWorldDir Condition="'$(RimWorldDir)' == ''">/mnt/steam/SteamLibrary/steamapps/common/RimWorld</RimWorldDir>
+    <HarmonyDll Condition="'$(HarmonyDll)' == ''">$(RimWorldDir)/../../workshop/content/294100/2009463077/1.7/Assemblies/0Harmony.dll</HarmonyDll>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp"><HintPath>$(RimWorldDir)/Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <!-- Harmony (brrainz.harmony, workshop 2009463077) is a required mod; reference its 1.7 build. -->
+    <Reference Include="0Harmony"><HintPath>$(HarmonyDll)</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityStubs"><HintPath>$(RimWorldDir)/UnityStubs.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

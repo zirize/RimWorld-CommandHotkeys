@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CmdHk.SettingsHelp>명령 버튼 위에 마우스를 올리거나 건축 항목을 선택한 뒤 지정 키({0})를 누르세요. 키 변경·해제는 키보드 설정에서 하고, 이 목록에서는 지정만 지웁니다.</CmdHk.SettingsHelp>
+  <CmdHk.OpenKeyboard>키보드 설정</CmdHk.OpenKeyboard>
+  <CmdHk.NoEntries>지정한 단축키가 없습니다.</CmdHk.NoEntries>
+  <CmdHk.Kind_Gizmo>명령 버튼</CmdHk.Kind_Gizmo>
+  <CmdHk.Kind_Designator>건축 항목</CmdHk.Kind_Designator>
+  <CmdHk.Remove>지우기</CmdHk.Remove>
+  <CmdHk.OpenTab>건축 열기: {0}</CmdHk.OpenTab>
+  <CmdHk.GizmoKey>버튼: {0}</CmdHk.GizmoKey>
+  <CmdHk.DesignatorKey>건축: {0}</CmdHk.DesignatorKey>
+  <CmdHk.NothingToAssign>먼저 명령 버튼 위에 마우스를 올리거나 건축 항목을 선택하세요.</CmdHk.NothingToAssign>
+  <CmdHk.SetKey>"{0}" 단축키 지정</CmdHk.SetKey>
+  <CmdHk.ChangeKey>"{0}" 단축키 바꾸기 (현재 {1})</CmdHk.ChangeKey>
+  <CmdHk.RemoveKey>"{0}" 단축키 지우기</CmdHk.RemoveKey>
+  <CmdHk.Import>Hotkeys 에서 가져오기</CmdHk.Import>
+  <CmdHk.ImportDone>Hotkeys 모드에서 건축 분류 키 {0}개, 건축 항목 키 {1}개를 가져왔습니다.</CmdHk.ImportDone>
+  <CmdHk.ImportUnmatched>건축 항목에서 찾지 못함: {0}.</CmdHk.ImportUnmatched>
+  <CmdHk.PressKey>{0} 에 쓸 키를 누르세요. 필요하면 Ctrl/Shift/Alt 를 누른 채로.\n현재: {1}\n\nEsc: 취소</CmdHk.PressKey>
+  <CmdHk.ChordTip>클릭: 키를 누르세요(조합키는 Ctrl/Shift/Alt 를 누른 채로). 오른쪽 클릭: 기본값·지우기.</CmdHk.ChordTip>
+  <CmdHk.ToggleState>{0}: {1}</CmdHk.ToggleState>
+  <CmdHk.On>켬</CmdHk.On>
+  <CmdHk.Off>끔</CmdHk.Off>
+  <CmdHk.Toggle_Zones>구역 표시</CmdHk.Toggle_Zones>
+  <CmdHk.Toggle_RoofOverlay>지붕 오버레이</CmdHk.Toggle_RoofOverlay>
+  <CmdHk.Toggle_FertilityOverlay>비옥도 오버레이</CmdHk.Toggle_FertilityOverlay>
+  <CmdHk.Toggle_TerrainAffordanceOverlay>지형 지지력 오버레이</CmdHk.Toggle_TerrainAffordanceOverlay>
+  <CmdHk.Toggle_TemperatureOverlay>온도 오버레이</CmdHk.Toggle_TemperatureOverlay>
+  <CmdHk.Toggle_PollutionOverlay>오염 오버레이</CmdHk.Toggle_PollutionOverlay>
+  <CmdHk.Toggle_VacuumOverlay>진공 오버레이</CmdHk.Toggle_VacuumOverlay>
+  <CmdHk.Toggle_ColonistBar>정착민 바</CmdHk.Toggle_ColonistBar>
+  <CmdHk.Toggle_LearningHelper>학습 도우미</CmdHk.Toggle_LearningHelper>
+  <CmdHk.Toggle_AutoHomeArea>자동 거주 구역</CmdHk.Toggle_AutoHomeArea>
+  <CmdHk.Toggle_AutoRebuild>자동 재건축</CmdHk.Toggle_AutoRebuild>
+  <CmdHk.Toggle_ResourceReadout>자원 목록 분류 표시</CmdHk.Toggle_ResourceReadout>
+</LanguageData>
