@@ -3,6 +3,7 @@
   <name>Command Hotkeys</name>
   <author>zirize</author>
   <packageId>zirize.CommandHotkeys</packageId>
+  <url>https://github.com/zirize/RimWorld-CommandHotkeys</url>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
@@ -27,5 +28,5 @@
 - Keys may be chords: hold Ctrl/Shift/Alt (left and right told apart) while pressing the key in the assign dialog. Options > Keyboard shows them and sets them the same way.
 - Requires Harmony (only the keyboard settings screen is patched, to show and set chords). Built for RimWorld 1.7 (.NET 10).
 
-An independent mod; it contains no code from the Hotkeys mod.</description>
+An independent spiritual successor to Hotkeys 1.6 (https://steamcommunity.com/sharedfiles/filedetails/?id=3536306259) and Architect Hotkeys Anywhere (https://github.com/zirize/RimWorld-ArchitectHotkeysAnywhere); it contains no code from the Hotkeys mod.</description>
 </ModMetaData>
